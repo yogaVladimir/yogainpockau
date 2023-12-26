@@ -278,14 +278,14 @@ tr:hover {
 
 .city>.adressText>a {
     /* Styles for non-visited links */
-    color: rgb(115, 5, 249);
+    color: rgb(184, 249, 5);
     /* text-shadow: 5px 5px 4px rgba(115, 5, 249); */
     -webkit-text-stroke: 1.5px rgba(4, 1, 14, 0.8);
 }
 
 .city>.adressText>a:visited {
     /* Styles for visited links */
-    color: rgb(115, 5, 249);
+    color: rgb(139, 249, 5);
     /* text-shadow: 5px 5px 4px rgba(115, 5, 249); */
     -webkit-text-stroke: 1.5px rgba(4, 1, 14, 0.8);
 }
@@ -298,6 +298,12 @@ tr:hover {
     -webkit-text-stroke: 1.5px rgba(14, 1, 1, 0.8);
 }
 
+/* ICON GMAPS */
+.gmaps {
+    margin-right: 10px;
+    box-shadow: 5px 7px 5px 5px rgba(0, 1, 16, 0.5);
+
+}
 
 
 
