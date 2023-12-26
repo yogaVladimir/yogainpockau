@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kurse YOGA in POCKAU all wrights are reserved" />
+    <link rel="stylesheet" href="css/kurse.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <title>YOGA IN POCKAU</title>
+</head>
+
+<body class="body">
+    <header>
+        <!-- NAVIGATION -->
+        <nav class="navigation">
+            <!-- LOGO -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo" width="150px" />
+                </a>
+            </div>
+
+            <!-- UL LIST WITH MENUS -->
+            <ul class="groupNav">
+                <a href="index.html">Willkommen</a>
+                <a href="aktuelles.html">Aktuelles</a>
+                <a href="kurse.html">Kurse</a>
+                <a href="studio.html">Studio</a>
+                <a href="ueberMich.html">Über mich</a>
+                <a href="preise.html">Preise</a>
+                <a href="kontakt.html">Kontakt</a>
+            </ul>
+            <!-- BURGER MENU -->
+            <!-- TEXT MENU AND SYMBOL AS PNG -->
+            <div class="burger-menu" onclick="toggleMenu()">
+                <h1 class="menuText">Menu</h1>
+                <img src="images/BurgerMenu.svg" alt="burger" class="brgOpen">
+            </div>
+            <!-- THE MENU YELLOW BUTTONS -->
+            <div class="burger">
+                <button class="navMenubtn">
+                    <a href="index.html" class="navMenubtnText">Willkommen</a>
+                </button>
+                <button class="navMenubtn">
+                    <a href="aktuelles.html" class="navMenubtnText">Aktuelles</a>
+                </button>
+                <button class="navMenubtn">
+                    <a href="kurse.html" class="navMenubtnText">Kurse</a>
+                </button>
+                <button class="navMenubtn">
+                    <a href="studio.html" class="navMenubtnText">Studio</a>
+                </button>
+                <button class="navMenubtn">
+                    <a href="ueberMich.html" class="navMenubtnText">Über mich</a>
+                </button>
+                <button class="navMenubtn">
+                    <a href="preise.html" class="navMenubtnText">Preise</a>
+                </button>
+                <button class="navMenubtn">
+                    <a href="kontakt.html" class="navMenubtnText">Kontakt</a>
+                </button>
+            </div>
+        </nav>
+        <!-- END OF NAVIGATION -->
+
+        <!-- TITLE -->
+        <h1 class="title">Kurse</h1>
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- MAIN -->
+    <main>
+        <!-- TEXT CONTENT -->
+        <div class="kurseContainer">
+            <p class="text">Ob du Anfänger bist oder Fortgeschrittener, hast Du immer die Möglichkeit an einer
+                Yogastunde teilzunehmen. Bitte melde Dich dazu telefonisch oder per E-Mail bei mir an!</p>
+            <p class="text">Telefon:
+                <a href="tel:+491772851620">0177 2851620</a>
+            </p>
+            <p class="text"> E-Mail: <a href="mailto:kontakt@yogainpockau.de">kontakt@yogainpockau.de</a></p>
+            <p class="text">Hier finden Sie Angebote zu laufenden Yoga-Kursen in Deiner Stadt:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            <h1 class="welcome">Montag</h1>
+                        </th>
+                        <th>
+                            <h1 class="welcome">Mittwoch</h1>
+                        </th>
+                        <th>
+                            <h1 class="welcome">Freitag</h1>
+                        </th>
+                        <th>
+                            <h1 class="welcome">Freitag</h1>
+                        </th>
+                        <th>
+                            <h1 class="welcome">Sonntag</h1>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p class="text">Bitterfeld</p>
+                        </td>
+                        <td>
+                            <p class="text">Leipzig</p>
+                        </td>
+                        <td>
+                            <p class="text">Borna </p>
+                        </td>
+                        <td>
+                            <p class="text">Geithain</p>
+                        </td>
+                        <td>
+                            <p class="text">Pockau</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="text">18:15-19:15</p>
+                        </td>
+                        <td>
+                            <p class="text">18:00-19:30</p>
+                        </td>
+                        <td>
+                            <p class="text">16:30-17:30</p>
+                        </td>
+                        <td>
+                            <p class="text">18:15-19:15</p>
+                        </td>
+                        <td>
+                            <p class="text">10:00-11:30</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="text">Hatha-Yoga</p>
+                        </td>
+                        <td>
+                            <p class="text">Hatha-Yoga</p>
+                        </td>
+                        <td>
+                            <p class="text">Hatha-Yoga</p>
+                        </td>
+                        <td>
+                            <p class="text">Hatha-Yoga</p>
+                        </td>
+                        <td>
+                            <p class="text">Hatha-Yoga</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- END OF TABLE -->
+            <!-- TABLE FOR SMALL SCREENS -->
+            <div class="tableContainer">
+                <div class="city" id="bitterfeld">
+                    <h1 class="welcome">BITTERFELD</h1>
+                    <h1 class="day">MONTAGS</h1>
+                    <h1 class="time">18:15-19:15</h1>
+                    <h1 class="typeYoga">Hatha-Yoga</h1>
+                    <h1 class="adressText">Online</h1>
+                    <button class="btnZumKurs">
+                        <a href="preise.html" class="btnText">PREISE</a>
+                    </button>
+                </div>
+                <div class="city" id="leipzig">
+                    <h1 class="welcome">LEIPZIG</h1>
+                    <h1 class="day">MITTWOCHS</h1>
+                    <h1 class="time">18:00-19:30</h1>
+                    <h1 class="typeYoga">Hatha-Yoga</h1>
+                    <h1 class="adressText"><a
+                            href="https://www.google.com/maps/place/Harkortstra%C3%9Fe+10,+04107+Leipzig/@51.3317412,12.3712014,17z/data=!3m1!4b1!4m6!3m5!1s0x47a6f8292c3ff4c7:0xbf7c968f17060cdc!8m2!3d51.3317412!4d12.3712014!16s%2Fg%2F11c2gd18tg?entry=ttu">Harkortstraße
+                            10</a>
+                    </h1>
+                    <button class="btnZumKurs">
+                        <a href="preise.html" class="btnText">PREISE</a>
+                    </button>
+                </div>
+                <div class="city" id="borna">
+                    <h1 class="welcome">BORNA</h1>
+                    <h1 class="day">FREITAGS</h1>
+                    <h1 class="time">16:30-17:30</h1>
+                    <h1 class="typeYoga">Hatha-Yoga</h1>
+                    <h1 class="adressText"><a
+                            href="https://www.google.com/maps/place/Jahnstra%C3%9Fe+24,+04552+Borna/@51.1237196,12.4851517,17z/data=!3m1!4b1!4m6!3m5!1s0x47a6e26da3345d59:0x8d56d6198b317cf8!8m2!3d51.1237163!4d12.4877266!16s%2Fg%2F11cs99f_qw?entry=ttu">Jahstraße
+                            24A</a>
+                    </h1>
+                    <button class="btnZumKurs">
+                        <a href="preise.html" class="btnText">PREISE</a>
+                    </button>
+                </div>
+                <div class="city" id="geithain">
+                    <h1 class="welcome">GEITHAIN</h1>
+                    <h1 class="day">FREITAGS</h1>
+                    <h1 class="time">18:15-19:15</h1>
+                    <h1 class="typeYoga">Hatha-Yoga</h1>
+                    <h1 class="adressText"><a
+                            href="https://www.google.com/maps/place/Ossaer+Weg+24,+04643+Geithain/@51.0525539,12.6675586,15z/data=!3m1!4b1!4m6!3m5!1s0x47a719c3c0bdfc5d:0xc3e331554082fd56!8m2!3d51.0525419!4d12.6860124!16s%2Fg%2F11c5j5rbr2?entry=ttu">Ossaer
+                            Weg 24</a>
+                    </h1>
+                    <button class="btnZumKurs">
+                        <a href="preise.html" class="btnText">PREISE</a>
+                    </button>
+                </div>
+                <div class="city" id="pockau">
+                    <h1 class="welcome">POCKAU</h1>
+                    <h1 class="day">SONNTAGS</h1>
+                    <h1 class="time">10:00-11:30</h1>
+                    <h1 class="typeYoga">Hatha-Yoga</h1>
+                    <h1 class="adressText"><a
+                            href="https://www.google.com/maps/place/Wernsdorfer+Papierfabrik+3,+09509+Pockau-Lengefeld/@50.6880772,13.2622122,17z/data=!3m1!4b1!4m6!3m5!1s0x4709fde9ea906bc1:0x964fac04fecbc101!8m2!3d50.6880738!4d13.2647871!16s%2Fg%2F11qnrmlwkm?entry=ttu">Wernsdorfer
+                            Papierfabrik 3</a>
+                    </h1>
+                    <button class="btnZumKurs">
+                        <a href="preise.html" class="btnText">PREISE</a>
+                    </button>
+                </div>
+            </div>
+            <!-- END OF TABLE FOR SMALL SCEENS -->
+            <!-- COURSES -->
+        </div>
+        <h1 class="welcome" style="color:blue">Jeder ist willkommen und herzlich eingeladen!</h1>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <!-- SOCIAL MEDIA-->
+        <div class="social_media">
+            <a href="https://www.youtube.com/channel/UCgsmV6aesIBNUsIt09TSTfg">
+                <img src="images/social media/youtube.png" alt="youtube">
+            </a>
+            <a href="https://vk.com/yogaderehre">
+                <img src="images/social media/vk.png" alt="vkontakte">
+            </a>
+            <a href="https://ok.ru/yogaingermany">
+                <img src="images/social media/ok.png" alt="odnoklassniki">
+            </a>
+            <a href="https://www.facebook.com/YogaDerEhre/">
+                <img src="images/social media/facebook.png" alt="facebook">
+            </a>
+        </div>
+        <div class="infos">
+            <!-- IMPRESSUM -->
+            <a class="up" href="impressum.html">Impressum</a>
+            <!-- LINK TO TOP -->
+            <a class="up" href="#top">Nach oben</a>
+        </div>
+
+    </footer>
+    <script src="JS/script1.js"></script>
+</body>
+
+</html>

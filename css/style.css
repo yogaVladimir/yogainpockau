@@ -1,0 +1,414 @@
+/* FONTS  macondo swash caps*/
+/* macondo-swash-caps-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Macondo Swash Caps';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/macondo-swash-caps-v24-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+.body {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    border: solid rgba(216, 219, 74, 0.09);
+    background: #F4F4ED;
+}
+
+/* HEADER */
+header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*HEADER NAVIGATION */
+.navigation {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-around;
+    min-width: 80%;
+    height: 9.375rem;
+    padding-bottom: 0.0625rem;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #ECD821 0%, rgba(236, 216, 33, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Logo */
+.logo {
+    width: 5%;
+    height: 9.25rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* MENU LIST */
+.groupNav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 5rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+    color: #000000;
+}
+
+.burger {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul>a {
+    margin: 0 15px;
+    color: #000;
+    font-family: Macondo Swash Caps;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+/* BURGER MENU */
+.burger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+/* END OF BURGER MENU */
+
+/* TITLE */
+h1 {
+    margin: 0.5rem;
+}
+
+.title {
+    margin: 20px;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+    font-family: Macondo Swash Caps;
+    font-size: 6.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* END OF HEADER */
+
+
+/* MAIN */
+/* Image */
+.imageContainer {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.mainImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: 1px solid #5E4C4C;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.50);
+    overflow: hidden;
+}
+
+img .mainImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* globalContainer */
+.globalContainer {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+    border-radius: 0.9375rem;
+    background: rgba(250, 251, 207, 0.26);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
+.welcome {
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Macondo Swash Caps;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.citate {
+    text-align: center;
+    color: #C17400;
+    font-family: Macondo Swash Caps;
+    font-size: 1.775rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text {
+    color: #210503;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Macondo Swash Caps;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2em;
+    padding: 10px;
+}
+
+/* CARDS */
+.herbs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.rectangle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 17.0625rem;
+    height: 20.5rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    border: 2px solid #C7BABA;
+    background: #ECECEC;
+    box-shadow: 10px 10px 4px 0px rgba(177, 174, 142, 0.50);
+}
+
+.titleText {
+    color: #210503;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+    font-family: Macondo Swash Caps;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.herbsImg {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*CARD BUTTONS */
+.btnZumKurs {
+    margin: 15px;
+    width: 13rem;
+    height: 3.0625rem;
+    flex-shrink: 0;
+    border-radius: 0.9375rem;
+    background: #0E40F1;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.50);
+    color: #FFF;
+    font-family: Macondo Swash Caps;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btnText {
+    color: #FFF;
+    font-family: Macondo Swash Caps;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* rectangle plus button container */
+.btnAndRectAngle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* END OF CARDS */
+
+/* FOOTER */
+.footer {
+    display: flex;
+    min-width: 80%;
+    height: 9.375rem;
+    padding-bottom: 0.0625rem;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 0.3125rem;
+    background: linear-gradient(180deg, rgba(236, 216, 33, 0.00) 3.79%, #ECD821 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.social_media {
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+}
+
+.social_media>a>img {
+    margin: 15px;
+}
+
+.infos {
+    margin: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+}
+
+.up {
+    color: #000;
+    font-family: Macondo Swash Caps;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 20px;
+}
+
+/* MEDIA QUERY for SMALL SCREENS BELOW 768px */
+@media (max-width: 768px) {
+    .burger-menu {
+        display: inline-flex;
+        height: 9.375rem;
+        padding: 0rem 2.625rem 0rem 9rem;
+        justify-content: center;
+        align-items: center;
+        gap: 1.875rem;
+        flex-shrink: 0;
+    }
+
+    .title {
+        font-size: 4rem;
+    }
+
+    .groupNav {
+        display: none;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .burger.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 10px 4px 0px rgba(0, 0, 0, 0.50);
+        width: 100%;
+        padding-bottom: 25px;
+        z-index: 25;
+        background-color: #F6F4DA;
+    }
+
+    /* STYLE OF THE BUTTONS */
+    .navMenubtn {
+        z-index: 50;
+        margin: 5px 0;
+        width: 90%;
+        height: 4.375rem;
+        border-radius: 0.9375rem;
+        border: 4px solid rgba(243, 150, 11, 0.75);
+        background: #F8D109;
+        box-shadow: 5px 7px 4px 2px rgba(251, 137, 4, 0.53);
+    }
+
+    /* TEXT OF THE BUTTONS */
+    .navMenubtnText {
+        -webkit-text-stroke: 1.5px rgba(19, 3, 101, 0.8);
+        color: #F6F4DA;
+        text-shadow: 0px 4px 4px #000;
+        font-family: Macondo Swash Caps;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    /* TEXT OF THE WORD MENU */
+    .menuText {
+        color: #000;
+        text-shadow: 0px 4px 4px #000;
+        font-family: Macondo Swash Caps;
+        font-size: 1.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    /* BURGER-MENU WRAPPING AS A COLUMN*/
+    .navigation {
+        flex-wrap: wrap;
+    }
+
+    /* FOOTER */
+    .footer {
+        flex-direction: column;
+
+    }
+
+    .social_media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .social_media>a>img {
+        margin: 2.5px;
+    }
+
+}
+
+/* MEDIA QUERY for SMALL SCREENS BELOW 375px */
+@media (max-width: 375px) {
+    .logo {
+        display: none;
+    }
+
+    .title {
+        font-size: 4rem;
+    }
+
+    .burger-menu {
+        padding: 0;
+    }
+}
+
+/* MEDIA QUERY for SMALL SCREENS BELOW 280px GALAXY FOLD*/
+@media (max-width: 375px) {
+    .title {
+        font-size: 4rem;
+    }
+
+    .navMenubtnText {
+        font-size: 2.5rem;
+    }
+
+}

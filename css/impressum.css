@@ -1,0 +1,363 @@
+/* FONTS  macondo swash caps*/
+/* macondo-swash-caps-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Macondo Swash Caps';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/macondo-swash-caps-v24-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+.body {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    height: 115.8125rem;
+    border: solid rgba(216, 219, 74, 0.09);
+    background: #F4F4ED;
+}
+
+/* HEADER */
+header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*HEADER NAVIGATION */
+.navigation {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-around;
+    min-width: 80%;
+    height: 9.375rem;
+    padding-bottom: 0.0625rem;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #ECD821 0%, rgba(236, 216, 33, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Logo */
+.logo {
+    width: 5%;
+    height: 9.25rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* MENU LIST */
+.groupNav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 5rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+    color: #000000;
+}
+
+.burger {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul>a {
+    margin: 0 15px;
+    color: #000;
+    font-family: Macondo Swash Caps;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+/* BURGER MENU */
+.burger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+/* END OF BURGER MENU */
+
+/* TITLE */
+h1 {
+    margin: 1.7rem 0;
+
+}
+
+.title {
+    margin: 20px;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+    font-family: Macondo Swash Caps;
+    font-size: 6.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* END OF HEADER */
+
+/* MAIN */
+.impressumContainer {
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+/* H1 ELEMENT */
+.welcome {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Macondo Swash Caps;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* P ELEMENT */
+.text {
+    color: #210503;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Macondo Swash Caps;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 10px;
+    line-height: 150%;
+}
+
+/* BUTTONS */
+.btnZumKurs {
+    margin: 15px;
+    width: 13rem;
+    height: 3.0625rem;
+    flex-shrink: 0;
+    border-radius: 0.9375rem;
+    background: #0E40F1;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.50);
+    color: #FFF;
+    font-family: Macondo Swash Caps;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btnText {
+    color: #FFF;
+    font-family: Macondo Swash Caps;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    min-width: 80%;
+    height: 9.375rem;
+    padding-bottom: 0.0625rem;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 0.3125rem;
+    background: linear-gradient(180deg, rgba(236, 216, 33, 0.00) 3.79%, #ECD821 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.social_media {
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+}
+
+.social_media>a>img {
+    margin: 15px;
+}
+
+.infos {
+    margin: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+}
+
+.up {
+    color: #000;
+    font-family: Macondo Swash Caps;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 20px;
+}
+
+/* MEDIA QUERY for SMALL SCREENS BELOW 768px */
+@media (max-width: 768px) {
+    .burger-menu {
+        display: inline-flex;
+        height: 9.375rem;
+        padding: 0rem 2.625rem 0rem 9rem;
+        justify-content: center;
+        align-items: center;
+        gap: 1.875rem;
+        flex-shrink: 0;
+    }
+
+    .title {
+        font-size: 4rem;
+    }
+
+    .groupNav {
+        display: none;
+    }
+
+    /* MAIN */
+    .impressumContainer {
+        width: 90%;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .burger.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 10px 4px 0px rgba(0, 0, 0, 0.50);
+        width: 100%;
+        padding-bottom: 25px;
+        z-index: 25;
+        background-color: #F6F4DA;
+    }
+
+    /* STYLE OF THE BUTTONS */
+    .navMenubtn {
+        z-index: 50;
+        margin: 5px 0;
+        width: 90%;
+        height: 4.375rem;
+        border-radius: 0.9375rem;
+        border: 4px solid rgba(243, 150, 11, 0.75);
+        background: #F8D109;
+        box-shadow: 5px 7px 4px 2px rgba(251, 137, 4, 0.53);
+    }
+
+    /* TEXT OF THE BUTTONS */
+    .navMenubtnText {
+        -webkit-text-stroke: 1.5px rgba(19, 3, 101, 0.8);
+        color: #F6F4DA;
+        text-shadow: 0px 4px 4px #000;
+        font-family: Macondo Swash Caps;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    /* TEXT OF THE WORD MENU */
+    .menuText {
+        color: #000;
+        text-shadow: 0px 4px 4px #000;
+        font-family: Macondo Swash Caps;
+        font-size: 1.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    /* BURGER-MENU WRAPPING AS A COLUMN*/
+    .navigation {
+        flex-wrap: wrap;
+    }
+
+    /* FOOTER */
+    .footer {
+        flex-direction: column;
+
+    }
+
+    .social_media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .social_media>a>img {
+        margin: 2.5px;
+    }
+
+}
+
+/* MEDIA QUERY for SMALL SCREENS BELOW 375px */
+@media (max-width: 375px) {
+    .logo {
+        display: none;
+    }
+
+    .title {
+        font-size: 4rem;
+    }
+
+    .burger-menu {
+        padding: 0;
+    }
+
+    /* MAIN */
+    .title {
+        margin: 0;
+        font-size: 3.5rem;
+    }
+
+    .impressumContainer {
+        width: 100%;
+    }
+}
+
+/* MEDIA QUERY for SMALL SCREENS BELOW 280px GALAXY FOLD*/
+@media (max-width: 375px) {
+
+    /* HEADER */
+    .title {
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+    }
+
+    /* BUTTONS OF BURGER MENU */
+    .navMenubtnText {
+        font-size: 2.5rem;
+    }
+
+    /* MAIN */
+    /* CONTANT CONTAINER */
+    .impressumContainer {
+        margin-bottom: 55px;
+    }
+
+    /* H1 ELEMENT */
+    .welcome {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    /* IMPRESSUM AND TO THE TOP TEXT */
+    .infos {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
