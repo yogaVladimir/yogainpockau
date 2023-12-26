@@ -130,7 +130,7 @@ h1 {
 .enterprice {
     text-align: center;
     color: #dedb00;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+    text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.50);
     -webkit-text-stroke: 1.5px rgba(190, 240, 12, 0.2);
     font-family: Macondo Swash Caps;
     font-size: 3.5rem;
